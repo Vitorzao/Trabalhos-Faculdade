@@ -1,0 +1,18 @@
+vcouro = float(input('Digite o valor do COURO: '))
+vsolado = float(input('Digite o valor do SOLADO: '))
+vcordoes = float(input('Digite o valor dos CORDOES e iLHOSES: '))
+vinsumos = float(input('Digite o valor dos INSUMOS: '))
+vmaodeobra = float(input('Digite o valor da MAO DE OBRA: '))
+vmarketing = float(input('Digite o valor de MARKETING: '))
+vvendas = float(input('Digite o valor dos custos de VENDA: '))
+
+preco_custo = (vcouro*0.30)+(vsolado*0.20)+(vcordoes*0.5)+(vinsumos*0.5)+(vmaodeobra*0.20)+(vmarketing*0.10)+(vvendas*0.10)
+print('O preço de custo unitário deste modelo de sapato é : ',preco_custo)
+preco_lucro = preco_custo*1.30
+preco_perdas = preco_lucro*1.15
+preco_IPI_COFINS = preco_perdas*1.15
+preco_margem = preco_IPI_COFINS*1.25
+preco_imposto = preco_margem*1.30
+preco_final = preco_imposto
+
+print('O preço final ao consumidor deste modelo de sapato é : ',preco_final)
