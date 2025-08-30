@@ -8,3 +8,4 @@ print('Nome do cliente:', nomecli)
 print('Peso do cliente: ', pesocli)
 print('Altura do cliente: ', alturacli)
 print('IMC do cliente', IMC)
+
