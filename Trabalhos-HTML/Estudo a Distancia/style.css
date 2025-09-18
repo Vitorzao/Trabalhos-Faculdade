@@ -1,5 +1,5 @@
 .titulo{
-    font: arial;
+    font-family: arial;
     font-size: 26px;
     text-align: center;
     color: white;
@@ -12,16 +12,17 @@
 }
 
 .secundario{
-    font: arial;
+    font-family: arial;
     font-size: 18px;
     text-align: left;
     color: orange;
 }
 
 .paragrafo{
-    font: arial;
+    font-family: arial;
     font-size: 14px;
     text-align: justify;
     color: black;
     text-indent: 50px;
+
 }
